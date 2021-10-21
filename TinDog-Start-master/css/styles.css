@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-padding: 3% 15%;
+padding: 3% 15% 7%;
 }
 
 .h1 {
@@ -61,13 +61,21 @@ margin: 5% 3% 5% 0;
 /* title image */
 
 .title-image{
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  margin: 0 0 0 20px;
 }
 
 /* features */
 #features{
-padding: 7% 15%;
+  padding: 7% 15%;
+
+position: relative;
+
+/* z-index: 1; */
+
+background-color: #fff;
 }
 
 .feature-box{
@@ -108,4 +116,41 @@ margin: 20px;
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  color:#fff;
+  padding:7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size:3.5rem;
+  line-hieght:1.5;
+}
+/* Footer Section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
 }
