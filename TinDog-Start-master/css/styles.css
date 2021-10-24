@@ -78,10 +78,10 @@ margin: 5% 3% 5% 0;
 /* title image */
 
 .title-image{
-  width: 20%;
+  width: 40%;
   transform: rotate(25deg);
   position: absolute;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 90px;
 }
 
 /* features */
